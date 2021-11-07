@@ -1,0 +1,12 @@
+# Installing dotfiles
+
+## profile
+source ./profile.sh
+
+## zsh
+source ./zshrc.zsh
+
+[nvim]
+ln -s ~/.soadot/nvim ~/.config/nvim  #on mac
+
+TODO replace ~/.soadot with variable
