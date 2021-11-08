@@ -7,7 +7,7 @@ if [ -e ~/.config/nvim/ ]
 then
   echo "will not create symlink ~/.config/nvim."
 else
-  ln -s ~/.soadot/vim/ ~/.config/nvim/
+  ln -s ~/.soadot/nvim ~/.config/nvim
 fi
 
 # set up ~/.zshrc

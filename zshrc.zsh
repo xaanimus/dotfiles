@@ -19,4 +19,4 @@ autoload -U colors && colors
 export PS1="%{$fg[white]%}[ %{$fg_bold[yellow]%}%45<..<%~%<< %{$reset_color%}] %# "
 
 #zsh-syntax-highlighting could break if not sourced at the end of zshrc
-source ~/.my_dotfiles/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.soadot/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
