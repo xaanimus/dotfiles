@@ -20,3 +20,8 @@ export PS1="%{$fg[white]%}[ %{$fg_bold[yellow]%}%45<..<%~%<< %{$reset_color%}] %
 
 #zsh-syntax-highlighting could break if not sourced at the end of zshrc
 source ~/.soadot/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+launch_notebook () {
+  echo "[soadot] launching jupyter notebook"
+  python3 -m jupyter notebook
+}

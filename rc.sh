@@ -19,3 +19,5 @@ if [ -e ~/.soadot/__local__/common_rc.sh ]
 then
   source ~/.soadot/__local__/common_rc.sh 
 fi
+
+export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"

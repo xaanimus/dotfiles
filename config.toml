@@ -1,0 +1,10 @@
+
+[mappings.nvim]
+link = "~/.config/nvim/"
+target = "./nvim"
+
+[append.zshrc]
+target = "~/.zshrc"
+add_line = "source $HOME/.soadot/zshrc.zsh"
+
+# .profile, .zprofile usually just has local stuff
