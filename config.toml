@@ -8,3 +8,7 @@ target = "~/.zshrc"
 add_line = "source $HOME/.soadot/zshrc.zsh"
 
 # .profile, .zprofile usually just has local stuff
+
+[mappings.tmux]
+link = "~/.tmux.conf"
+target = "./tmux.conf"
